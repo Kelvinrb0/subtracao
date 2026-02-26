@@ -2,7 +2,7 @@
 
 int main() {
 
-    int x, y, z, w;
+    int x, y;
     float subtracao;
 
     printf("coloque o primeiro numero\n");
@@ -10,14 +10,8 @@ int main() {
 
     printf("coloque o segundo numero\n");
     scanf("%d", &y);
-    
-    printf("coloque o terceiro numero\n");
-    scanf("%d", &z);
-    
-    printf("coloque o quarto numero\n");
-    scanf("%d", &w);
 
-    subtracao = (float) x - y - z - w;
+    subtracao = (float) x - y;
 
     printf("resultado da multiplicacao %.2f", subtracao);
 }
